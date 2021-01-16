@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    background-color: #99d1e8;
+}
+
+.header {
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+}
+
+#header-bkg {
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/city-top.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: cover;
+    padding-top: 20px;
+    border-bottom: 6px solid transparent;
+    border-image: linear-gradient(to right, #a3cd8d, #7da3d6);
+    border-image-slice: 1;
+    text-align: center;
+}
+
+#header-article {
+    /*background-color: rgba(82, 170, 216, 0.5);*/
+    padding-top: 130px;
+}
+
+#header-title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 600%;
+}
+
+#header-description {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.top-menu-right {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(82, 170, 216, 0.5);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.on-menu {
+    border: 2px solid transparent;
+    border-radius: 35px;
+    margin-right: 30px;
+    padding: 10px 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#sign-in {
+    margin-right: 200px;
+}
+
+.on-menu:hover {
+    border-color: #ffffff;
+}
+
+#main-btn {
+    color: white;
+    border-radius: 75px;
+    padding: 25px 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #7da3d7;
+    border: solid #7da3d7;
+}
+
+.marquee{
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    background-color: black;
+    border-bottom: 6px solid transparent;
+    border-image: linear-gradient(to right, #a3cd8d, #7da3d6);
+    border-image-slice: 1;
+}
+
+.marquee span {
+    color:yellow;
+    font-size:25px;
+    display:inline-block;
+    padding-left:100%;
+    -webkit-animation: marquee 100s infinite linear;
+    animation: marquee 100s infinite linear;
+}
+
+@-webkit-keyframes marquee {
+    0%{-webkit-transform: translate(0, 0);}
+    100%{-webkit-transform: translate(-100%, 0);}
+}
+@keyframes marquee{
+    0%{transform: translate(0, 0);}
+    100%{transform: translate(-100%, 0)}
+}
+
+#currency-tbl {
+    border-collapse: collapse;
+}
+
+#content-container {
+    height: 1500px;
+}
+
+/*td {*/
+    /*border: solid 1px #4c556d;*/
+    /*padding: 10px;*/
+
+/*}*/
+
+#footer {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/city-down.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    /*background-size: cover;*/
+    padding-top: 20px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-image: linear-gradient(to right, #a3cd8d, #7da3d6);
+    border-image-slice: 1;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer-content {
+    padding: 50px 200px;
+}
+
+#contacts {
+    height: 300px;
+}
+
+#content-bar {
+    margin-right: 50px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.content-option {
+    border: solid 1px #37a1d9;
+    width: 425px;
+    height: 300px;
+
+    text-align: center;
+    position: relative;
+}
+
+#content {
+    background-color: #37a1d9;
+    height: 1100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 1708px;
+}
+
+.content-option .option-title {
+    position: absolute;
+    /*bottom: -20px;*/
+    top:80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    /*transition: bottom .6s ease;*/
+    transition: top .6s ease;
+}
+
+.content-option:hover .option-title{
+    /*bottom: 0;*/
+    top: 0;
+}
+
+#currency {
+    background-image: url("../images/coin.jpeg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+#commodities {
+    background-image: url("../images/commodities.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+#shares {
+    background-image: url("../images/shares-transmission.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+#indexes {
+    background-image: url("../images/images.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+#signature {
+    margin-right: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+

@@ -1,0 +1,9 @@
+#Project specific ignores
+/target/
+/out/
+/master/
+*.log
+*.iml
+/logs/
+/.idea/
+*.csv

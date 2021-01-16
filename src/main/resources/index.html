@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/auth-style.css">
+</head>
+<body>
+
+<div id="header-bkg">
+    <span class="top-menu-right">
+            <a class="on-menu" href="#about">ABOUT</a>
+            <a class="on-menu" id="help">HELP</a>
+            <a class="on-menu" id="sign-up">SIGN UP</a>
+            <a class="on-menu" id="sign-in">SIGN IN</a>
+            </span>
+
+    <div id="login-form">
+        <span id="close-in" class="close"></span>
+        <h1 id="auth-form-title">SIGN IN</h1>
+        <input type="text" id="username" class="input-user-data" placeholder="Username"/>
+        <input type="password" id="password" class="input-user-data" placeholder="Password"/>
+        <button id="authAction" class="send-user-info">SIGN IN</button>
+        <div id="loginResult" class="validation-answer">
+            <!-- Result here -->
+        </div>
+    </div>
+
+    <div id="registration-form">
+        <span id="close-up" class="close"></span>
+        <h1 id="registration-form-title">SIGN UP</h1>
+        <input type="text" id="reg-username" class="input-user-data" placeholder="Username"/>
+        <input type="email" id="reg-email" class="input-user-data" placeholder="Email"/>
+        <input type="password" id="reg-pwd" class="input-user-data" placeholder="Password"/>
+        <input type="password" id="reg-dub-pwd" class="input-user-data" placeholder="Repeat your password"/>
+        <button id="registration" class="send-user-info">SIGN UP</button>
+        <div id="regResult" class="validation-answer">
+            <!-- Result here -->
+        </div>
+    </div>
+
+    <div id="help-me">
+        <span id="close-help" class="close"></span>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at consectetur cum, cupiditate ea eos est
+            facilis maiores quis, sit sunt temporibus, veniam veritatis? Cum inventore libero quaerat tenetur velit!
+        </div>
+        <div>Deleniti eius eligendi labore laudantium nam neque nostrum possimus! Dignissimos, nostrum quaerat. Atque,
+            eligendi eveniet illum incidunt pariatur velit. Accusamus adipisci explicabo laborum magni neque quo quod
+            repellendus tempore veniam.
+        </div>
+        <div>Animi asperiores cum dolorem eaque eius esse fugit inventore ipsam ipsum itaque iusto maiores nam natus
+            nesciunt nihil odit omnis perspiciatis quia reiciendis sit tempore, temporibus tenetur ullam. Error, fuga.
+        </div>
+        <div>Doloremque ex, id odio optio ratione temporibus ut veritatis voluptate? Ab magni necessitatibus nemo rem
+            sapiente? A adipisci consequuntur deleniti dolores, excepturi illum nisi nostrum optio. Blanditiis
+            consectetur enim mollitia?
+        </div>
+        <div>Consequatur fugiat, fugit, ipsam, itaque mollitia natus officia quibusdam quis suscipit vel voluptate
+            voluptatem! Commodi cum cumque delectus ea enim error eveniet, incidunt laudantium quaerat, ratione
+            recusandae reiciendis, tempore tenetur!
+        </div>
+        <div>Ab animi aut dolore eaque, illo, impedit ipsam iste labore magni obcaecati officiis qui quibusdam quos
+            suscipit, voluptas. Impedit molestias nostrum officia optio perspiciatis quaerat repellat repellendus
+            repudiandae similique sunt.
+        </div>
+        <div>Animi, asperiores, consectetur cum dignissimos distinctio doloremque ducimus expedita itaque iure modi
+            molestiae molestias nobis odio provident quis quisquam reiciendis rem sequi, temporibus ullam? Blanditiis
+            eaque iure laudantium molestiae perferendis?
+        </div>
+        <div>Aperiam cumque non numquam qui sint. Adipisci atque, deserunt dolor excepturi hic iusto labore modi
+            molestiae nam natus nihil officiis quasi qui recusandae sint sunt velit vero voluptatem voluptates
+            voluptatum.
+        </div>
+        <div>Accusantium culpa cum dolor eveniet fuga itaque labore, laboriosam neque odio perferendis placeat rerum
+            sit, velit veniam voluptatem? Aperiam cumque deleniti dignissimos hic, iure labore libero nihil reiciendis
+            sequi veritatis.
+        </div>
+        <div>Consectetur deserunt dolor, error eum ex, exercitationem explicabo in incidunt ipsa magnam nemo, non
+            pariatur quasi qui quibusdam rem rerum tempora vero voluptates voluptatibus. Consequuntur culpa eligendi sit
+            veniam. Ullam?
+        </div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi consectetur consequatur cum
+            ducimus eius enim eum harum, iusto nostrum officiis omnis quia quibusdam quod recusandae similique tempora
+            vero, voluptatum!
+        </div>
+        <div>A ab amet, architecto aspernatur at aut cum earum eos expedita explicabo, incidunt magnam nobis obcaecati
+            officia pariatur placeat quis quod sed tenetur voluptatum? Assumenda doloremque illo neque odit rem.
+        </div>
+        <div>Aspernatur beatae dignissimos eius exercitationem explicabo illo inventore ipsam iusto minima
+            necessitatibus nemo nihil nobis odio odit optio quo, ratione rem repellendus temporibus tenetur ullam
+            veritatis voluptatem. Dolorum, praesentium, voluptatem!
+        </div>
+        <div>Accusamus aliquid architecto aspernatur blanditiis, cupiditate dolor, dolore dolores et facere fuga fugit
+            labore laboriosam natus neque nisi nobis nostrum, pariatur provident quas quia quis repellat tenetur vel
+            veniam voluptates!
+        </div>
+        <div>Ab architecto cupiditate deserunt esse incidunt odio, officiis porro praesentium, quaerat quam quod rerum
+            voluptate voluptatem. Accusamus aperiam, deserunt eius eos, ex fugit, natus necessitatibus neque provident
+            reprehenderit voluptatem voluptatibus.
+        </div>
+        <button id="ok-help" class="send-user-info">OK</button>
+    </div>
+
+    <div id="header-article">
+        <h1 id="header-title">STOCK EXCHANGE ANALYSIS</h1>
+        <div id="header-description">In the tumultuous business of cutting-in and attending to a whale, there is much
+            <br>
+            running backwards and forwards among the crew.
+        </div>
+        <input type="submit" id="main-btn" value="SEE ALL FEATURES">
+    </div>
+
+</div>
+
+
+<div class="marquee"><span id="raits"></span></div>
+
+<div id="content-container">
+    <div id="content-bar">
+        <div class="content-option" id="currency">
+            <div class="option-title">
+                <h1>Currency</h1>
+                <p>Descriptions</p>
+            </div>
+        </div>
+        <div class="content-option" id="commodities">
+            <div class="option-title">
+                <h1>Commodities</h1>
+                <p>Descriptions</p>
+            </div>
+        </div>
+        <div class="content-option" id="shares">
+            <div class="option-title">
+                <h1>Shares</h1>
+                <p>Descriptions</p>
+            </div>
+        </div>
+        <div class="content-option" id="indexes">
+            <div class="option-title">
+                <h1>Indexes</h1>
+                <p>Descriptions</p>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+
+
+    </div>
+
+</div>
+
+<div id="footer">
+    <div id="footer-content">
+        <div><a name="about"></a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi aspernatur
+            consequuntur
+            cum earum est
+            excepturi, in ipsam magnam molestiae odio, officiis perferendis quam qui quibusdam soluta tempora unde ut.
+        </div>
+        <div>Ab aperiam aspernatur assumenda blanditiis corporis doloremque enim excepturi exercitationem, fuga impedit
+            inventore ipsa ipsam iure labore maiores nobis, numquam, obcaecati odio porro quia ratione suscipit tenetur
+            totam unde vitae?
+        </div>
+        <div>Ab accusamus aspernatur consequatur debitis, distinctio earum ex expedita harum id nam odio porro
+            praesentium,
+            quasi quos sunt unde vero. Aliquam asperiores consequatur qui quis quo sint totam vel! Mollitia.
+        </div>
+        <div>Assumenda at consequatur eum, expedita inventore sequi ut voluptatibus! Aliquam consequuntur cumque dicta
+            esse
+            explicabo fugiat fugit illo laboriosam laborum molestiae, nam natus nobis nulla officia repellendus saepe
+            totam
+            voluptas?
+        </div>
+        <div>Alias architecto blanditiis consequuntur cum, deserunt dignissimos distinctio dolores ex explicabo facilis
+            fugiat incidunt iusto maxime minima modi molestiae non obcaecati quis quisquam quo repellat rerum sequi
+            similique tenetur voluptatem.
+        </div>
+    </div>
+</div>
+<div id="contacts">
+</div>
+<div>
+    <p id="signature">&copy 2017 StockMarket. All Rights Reserved | Design by mmuzichenko</p>
+</div>
+
+<script defer src="js/functions.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+#login-form {
+    border-image: url(../images/ribbon.png) 30% round;
+    border-top: 10px solid;
+    text-align: center;
+
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#registration-form {
+    border-image: url(../images/ribbon.png) 30% round;
+    border-top: 10px solid;
+    text-align: center;
+
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#help-me {
+    border-image: url(../images/ribbon.png) 30% round;
+    border-top: 10px solid;
+    text-align: center;
+    padding: 80px 40px;
+
+    background-color: white;
+    height: 700px;
+    width: 700px;
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y:scroll;
+}
+
+#auth-form-title {
+    padding-top: 40px;
+}
+
+.send-user-info {
+    background-color: #7da3d7;
+    color: white;
+    border: none;
+    display: block;
+    width: 410px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+    margin: 20px auto;
+}
+
+/*#username , #password {*/
+.input-user-data {
+    background-color: #f4f7fb;
+    border: none;
+    display: block;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.validation-answer {
+    color: red;
+    font-size: 20px;
+}
+
+
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
